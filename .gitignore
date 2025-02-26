@@ -1,0 +1,27 @@
+# Ignore Python virtual environment
+env/
+venv/
+
+# Ignore credentials and sensitive data
+service_account.json
+oauth_client.json
+notes.txt
+token.pickle
+*.key
+*.pem
+
+# Ignore cache and compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+*.log
+logs/
+debug.log
+
+# Ignore IDE and OS-specific files
+.DS_Store
+.idea/
+.vscode/
